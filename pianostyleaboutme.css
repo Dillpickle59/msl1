@@ -1,0 +1,137 @@
+/* Set the font family, background image, and margin of the body */
+body {
+    font-family: Arial, sans-serif;
+    background-image:#949393;
+      background: linear-gradient(-45deg, #000000, #1b1b1b, #333, #444444);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+      height: 100vh;
+      margin: 0px;
+    
+    @keyframes gradient {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    
+    }
+}
+  /* Style the navigation bar */
+  nav {
+    background-color: #333;
+    color: #FFF;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 19.2px;
+  }
+  
+  /* Set the maximum width, margin, and padding of the main section */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style the picture gallery section */
+  .info {
+    background-color: #FFF;
+    border: 1px solid #E0E0E0;
+    padding: 20px;
+  }
+  
+  .info h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .info p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .info ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .info li {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 30px;
+  }
+  
+  .info h2 {
+    font-size: 1.5em;
+    margin-bottom: 0px;
+    color: #333;
+  }
+
+  /* Style the welcome section */
+  .welcome {
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 21px;
+  }
+  
+  .welcome h1 {
+    font-size: 3em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .parasec1 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .pic1 {
+    width: 500px; /* Set the initial width of the image */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-bottom: 50px;
+  }
+  
+  video {
+  width: 100%;
+  height: auto;
+
+  }
+
+  .welcome{
+    background-color: hsl(0, 0%, 100%);
+    border-bottom: 40px;
+  }
+  
+.header1 {
+  padding-top: 30px;
+}
